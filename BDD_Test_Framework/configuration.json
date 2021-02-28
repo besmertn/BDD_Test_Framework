@@ -1,0 +1,64 @@
+﻿{
+  "drivers": {
+    "selectedDriver": "chrome",
+    "manageInactiveBrowserProcesses": true,
+    "chrome": {
+      "options": {
+        "BinaryLocation": null,
+        "LeaveBrowserRunning": false,
+        "Arguments": [ "--allow-insecure-localhost" ],
+        "Extensions": [],
+        "DebuggerAddress": null,
+        "MinidumpPath": null,
+        "PerformanceLoggingPreferences": null,
+        "UseSpecCompliantProtocol": false,
+        "BrowserName": "chrome",
+        "BrowserVersion": null,
+        "PlatformName": null,
+        "AcceptInsecureCertificates": null,
+        "UnhandledPromptBehavior": 0,
+        "PageLoadStrategy": 0,
+        "Proxy": null
+      }
+    },
+    "internetExplorer": {
+      "options": {
+        "IntroduceInstabilityByIgnoringProtectedModeSettings": false,
+        "IgnoreZoomLevel": false,
+        "EnableNativeEvents": true,
+        "RequireWindowFocus": false,
+        "InitialBrowserUrl": "",
+        "ElementScrollBehavior": 0,
+        "EnablePersistentHover": true,
+        "BrowserAttachTimeout": "-10675199.02:48:05.4775808",
+        "FileUploadDialogTimeout": "-10675199.02:48:05.4775808",
+        "ForceCreateProcessApi": false,
+        "ForceShellWindowsApi": false,
+        "BrowserCommandLineArguments": "",
+        "UsePerProcessProxy": false,
+        "EnsureCleanSession": true,
+        "BrowserName": "internet explorer",
+        "BrowserVersion": null,
+        "PlatformName": "windows",
+        "AcceptInsecureCertificates": null,
+        "UnhandledPromptBehavior": 0,
+        "PageLoadStrategy": 0,
+        "Proxy": null
+      }
+    },
+    "firefox": {
+      "options": {
+      }
+    },
+    "downloadDefaultDirectory": "Downloads"
+  },
+
+  "utility": {
+    "baseUrl": "https://localhost:{0}/",
+    "shortWaitInMilliseconds": 3000,
+    "mediumWaitInMilliseconds": 8000,
+    "longWaitInMilliseconds": 10000,
+    "driverServiceInactivityInMinutes": 5,
+    "retryCount": 5
+  }
+ }
