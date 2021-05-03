@@ -24,6 +24,6 @@ namespace BDD_Test_Framework.Pages
 
         [ElementName(@"Search Suggestion elements")]
         public IReadOnlyCollection<IWebElement> SerachSuggestionElements => this.WrappedDriver
-            .FindElementsWithRetry(By.CssSelector(".sa_sg"), this.RetryPolicyFactory);
+            .FindElementsWithRetry(By.CssSelector("li.sa_sg"), this.RetryPolicyFactory);
     }
 }

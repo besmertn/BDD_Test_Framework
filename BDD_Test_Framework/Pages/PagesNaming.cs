@@ -7,6 +7,8 @@ namespace BDD_Test_Framework.Pages
     {
         public static readonly string SearchPage = "Search";
 
+        public static readonly string SearchResultPage = "Search Result";
+
 
         public static readonly IDictionary<string, Type> Pages;
 
@@ -15,6 +17,7 @@ namespace BDD_Test_Framework.Pages
             Pages = new Dictionary<string, Type>()
             {
                 [SearchPage] = typeof(SearchPage),
+                [SearchResultPage] = typeof(SearchResultPage),
             };
         }
     }

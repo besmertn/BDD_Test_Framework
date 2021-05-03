@@ -58,6 +58,7 @@ namespace BDD_Test_Framework.Config
                         "download.default_directory",
                         Directory.GetCurrentDirectory() + this.DownloadsDirectory);
                 ((ChromeOptions)driverOptions).AddArgument("--allow-insecure-localhost");
+                ((ChromeOptions)driverOptions).AddArgument("--incognito");
             }
 
             return driverOptions;

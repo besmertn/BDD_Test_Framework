@@ -1,4 +1,5 @@
-﻿using BDD_Test_Framework.Config;
+﻿using System.Threading.Tasks;
+using BDD_Test_Framework.Config;
 using BDD_Test_Framework.Config.Readers;
 using BDD_Test_Framework.Driver;
 using BDD_Test_Framework.Factories;
@@ -45,9 +46,11 @@ namespace BDD_Test_Framework.Hooks
         }
 
         [Before(Order = 3)]
-        public void NavigateToBaseUrl()
+        public async Task NavigateToBaseUrl()
         {
             this.webDriver.Navigate().GoToUrl(this.objectContainer.Resolve<UtilityConfigReader>().BaseUrl);
+            await Task.Delay(1000);
+            this.webDriver.Navigate().Refresh();
         }
 
         [After(Order = 1)]
