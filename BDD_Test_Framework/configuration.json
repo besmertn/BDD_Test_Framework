@@ -54,7 +54,7 @@
   },
 
   "utility": {
-    "baseUrl": "https://localhost:{0}/",
+    "baseUrl": "https://www.bing.com/",
     "shortWaitInMilliseconds": 3000,
     "mediumWaitInMilliseconds": 8000,
     "longWaitInMilliseconds": 10000,
